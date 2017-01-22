@@ -1,0 +1,49 @@
+{
+  "name": "clearscoretest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack && cp src/index.html build/index.html",
+    "dev": "webpack-dev-server --content-base build/",
+    "server:dev": "node ./bin/www",
+    "test": "mocha --require 'test/client-side-test-setup.js' 'src/**/**.spec.js'"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cors": "^2.8.1",
+    "debug": "~2.2.0",
+    "es6-promise": "^4.0.5",
+    "express": "~4.14.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-progressbar.js": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-rewire": "^1.0.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.22.0",
+    "babel-template": "^6.22.0",
+    "babel-types": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.7.0",
+    "file-loader": "^0.9.0",
+    "ignore-loader": "^0.1.2",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^3.2.0",
+    "node-sass": "^4.3.0",
+    "react-addons-test-utils": "^15.4.2",
+    "sass-loader": "^4.1.1",
+    "sinon": "^1.17.7",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

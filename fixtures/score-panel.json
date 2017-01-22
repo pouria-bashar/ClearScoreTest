@@ -1,0 +1,38 @@
+[
+  {
+    "id": "panel-1",
+    "score": 541,
+    "title": "Justin Bisini",
+    "subTitle": "CEO and Co-Founder",
+    "indicator": [
+      0,
+      0.75
+    ],
+    "color": "#89bcdb",
+    "panel": 0
+  },
+  {
+    "id": "panel-2",
+    "score": 450,
+    "title": "Joe Bloggs",
+    "subTitle": "A Web Blogger",
+    "indicator": [
+      0,
+      0.45
+    ],
+    "color": "#ffffff",
+    "panel": 1
+  },
+  {
+    "id": "panel-2",
+    "score": 120,
+    "title": "Sarah Jones",
+    "subTitle": "A Web Blogger",
+    "indicator": [
+      0,
+      0.45
+    ],
+    "color": "#ffffff",
+    "panel": 2
+  }
+]

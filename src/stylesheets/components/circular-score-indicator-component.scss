@@ -1,0 +1,62 @@
+.circular-score-indicator-component {
+  margin: 8px;
+  width: 400px;
+  height: 400px;
+
+  .progressbar-text {
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+
+    span {
+      display: block;
+      width: 100%;
+    }
+
+    &__title {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    &__out-of-text {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 735px) {
+  .circular-score-indicator-component {
+    width: 284px;
+    height: 284px;
+
+    .progressbar-text {
+      font-size: 60px;
+
+      &__title {
+        font-size: 19px;
+      }
+
+      &__out-of-text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .circular-score-indicator-component {
+    width: 194px;
+    height: 194px;
+
+    .progressbar-text {
+      &__title {
+        font-size: 15px;
+      }
+
+      &__out-of-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
