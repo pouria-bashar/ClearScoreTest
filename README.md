@@ -6,7 +6,7 @@ In order to install and run the app:
 
 * Run `npm install`
 * Run `npm run build`
-* Run `npm start`
+* Run `npm start` - the app is accessible on port 3000 by default (http://localhost:3000)
 
 ## Running the tests
 
